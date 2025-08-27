@@ -9,6 +9,7 @@
 int main(void)
 {
 	printf("Hello World! %s\n", CONFIG_BOARD_TARGET);
+	printf("Figuring out PIR input %s\n", CONFIG_BOARD_TARGET);
 
 	return 0;
 }
